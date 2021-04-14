@@ -1,0 +1,49 @@
+/* Deel 1 */
+
+.link1:hover {
+    color: lightblue;
+    font-weight: 900;
+}
+
+.link2:active {
+    color: red;
+    font-style: oblique;
+}
+
+.link3:visited {
+    color: yellow;
+}
+
+.deel1 input:focus {
+    color: green;
+    font-size: 20px;
+}
+
+/* Deel 2 */
+
+nav {
+    background-color: darkblue;
+}
+
+nav li {
+    display: inline-block;
+    padding: 20px;
+}
+
+li:first-child {
+    position: relative;
+    margin-left: -57px;
+}
+
+li:nth-child(3):hover {
+    background-color: lightblue;
+}
+
+.currentPage {
+    background-color: rgb(94, 106, 145);
+}
+
+form input:focus {
+    border: 2px solid green;
+    outline: none;
+}
